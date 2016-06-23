@@ -5,18 +5,20 @@ The Raspberry Pi is the gateway. Rpi is used to scan the beacon's signal and sen
 
 ## Module
 
-Use the **bleacon** module to scan the beacon.
+- **bleacon** is used to scan the beacon.
+- **request** is used to parse json's HTTP request.
 
 ## Install
 
 - Step 1.
 ```sh
   npm install bleacon
+  npm install request
 ```
 
 - Step 2.
 
-  clone the scan.js
+  download the scan.js
 
 ## Run the App
 
